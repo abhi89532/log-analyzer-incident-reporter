@@ -1,0 +1,30 @@
+2026-09-21 08:00:01 | INFO | Application | Service started successfully
+2026-09-21 08:01:12 | INFO | AuthService | User login succeeded
+2026-09-21 08:03:44 | WARNING | CacheService | Cache usage exceeded 75 percent
+2026-09-21 08:04:10 | INFO | ApiGateway | Request completed with status 200
+2026-09-21 08:06:22 | ERROR | DatabaseService | Database connection timeout
+2026-09-21 08:06:25 | WARNING | DatabaseService | Retrying database connection
+2026-09-21 08:06:31 | ERROR | DatabaseService | Database connection timeout
+2026-09-21 08:07:03 | INFO | DatabaseService | Database connection restored
+2026-09-21 08:15:17 | WARNING | ApiGateway | Response time exceeded threshold
+2026-09-21 08:16:04 | INFO | ApiGateway | Request completed with status 200
+2026-09-21 08:22:48 | ERROR | PaymentService | Payment request failed validation
+2026-09-21 08:23:09 | INFO | PaymentService | Invalid payment request rejected
+2026-09-21 08:30:00 | WARNING | CacheService | Cache usage exceeded 75 percent
+this line is intentionally malformed for parser testing
+2026-09-21 08:35:41 | ERROR | DatabaseService | Database connection timeout
+2026-09-21 08:36:02 | WARNING | DatabaseService | Retrying database connection
+2026-09-21 08:36:20 | CRITICAL | DatabaseService | Database connection pool exhausted
+2026-09-21 08:36:24 | CRITICAL | DatabaseService | Database connection pool exhausted
+2026-09-21 08:36:35 | INFO | MonitoringService | Operations team notification sent
+2026-09-21 08:40:00 | INFO | DatabaseService | Database connection restored
+2026-09-21 09:05:15 | WARNING | ApiGateway | Response time exceeded threshold
+2026-09-21 09:07:32 | ERROR | AuthService | Authentication token expired
+2026-09-21 09:08:13 | INFO | AuthService | Authentication token refreshed
+2026-09-21 09:30:55 | WARNING | CacheService | Cache usage exceeded 75 percent
+2026-09-21 09:45:10 | ERROR | PaymentService | Payment request failed validation
+2026-09-21 10:02:19 | INFO | HealthCheck | All services responding
+2026-09-21 10:15:44 | CRITICAL | DatabaseService | Database connection pool exhausted
+2026-09-21 10:16:00 | WARNING | DatabaseService | Retrying database connection
+2026-09-21 10:16:12 | INFO | DatabaseService | Database connection restored
+2026-09-21 10:30:00 | INFO | Application | Scheduled health check completed

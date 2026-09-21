@@ -1,6 +1,15 @@
 # Log Analyzer and Incident Report Generator
 
 A command-line Python application that parses structured log files, detects repeated incidents, prioritizes critical failures, and generates professional Markdown, JSON, and CSV reports.
+## Screenshots
+
+### Terminal Analysis
+
+![Terminal analysis output](screenshots/terminal-analysis.png)
+
+### Generated Incident Report
+
+![Generated incident report](screenshots/incident-report.png)
 
 ## Features
 
